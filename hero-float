@@ -1,0 +1,17 @@
+// details centers text and translates the text over an image using ccs3 transform
+// hero-img sets the max-width of a @2x image and sets its display to block
+
+.details{
+     transform: translateY(-240px);     
+     text-align: center;
+}
+.details a{
+     text-decoration: underline;
+     font-weight: bold;
+     color: inherit;
+}
+.hero-img{
+     max-width: 751px;
+     margin: 5% auto;
+     display: block;
+}
